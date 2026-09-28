@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ExamOCRBench Public Task2 Output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "sample_id", "coordinate_system", "elements"],
+  "properties": {
+    "schema_version": {"const": "examocrbench_task2_public_output_v1"},
+    "sample_id": {"type": "string", "minLength": 1},
+    "coordinate_system": {"const": "normalized_1000"},
+    "elements": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["element_id", "element_type", "parent_id", "reading_order", "bbox", "text", "content_format", "visible_marker", "explicit_score", "confidence"],
+        "properties": {
+          "element_id": {"type": "string", "minLength": 1},
+          "element_type": {"enum": ["Page", "Section", "Instruction", "Question", "Figure", "ResponseSlot"]},
+          "parent_id": {"type": ["string", "null"]},
+          "reading_order": {"type": "integer", "minimum": 0},
+          "bbox": {"type": "array", "minItems": 4, "maxItems": 4, "items": {"type": "number", "minimum": 0, "maximum": 1000}},
+          "text": {"type": ["string", "null"]},
+          "content_format": {"enum": ["none", "plain_text", "mixed_latex"]},
+          "visible_marker": {"type": ["string", "null"]},
+          "explicit_score": {"type": ["number", "null"], "minimum": 0},
+          "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+        }
+      }
+    }
+  }
+}

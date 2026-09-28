@@ -1,0 +1,3 @@
+{"schema_version": "examocrbench_task4_public_input_v1", "sample_id": "demo_task4_001", "image": "crops/demo_task4_001.png", "content_type": "plain_text", "output_format": "plain_text"}
+{"schema_version": "examocrbench_task4_public_input_v1", "sample_id": "demo_task4_002", "image": "crops/demo_task4_002.png", "content_type": "plain_text", "output_format": "plain_text"}
+{"schema_version": "examocrbench_task4_public_input_v1", "sample_id": "demo_task4_003", "image": "crops/demo_task4_003.png", "content_type": "formula", "output_format": "plain_text"}

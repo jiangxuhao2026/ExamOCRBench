@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ExamOCRBench Public Task3 Output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "sample_id", "query_id", "found", "bbox", "confidence"],
+  "properties": {
+    "schema_version": {"const": "examocrbench_task3_public_output_v1"},
+    "sample_id": {"type": "string", "minLength": 1},
+    "query_id": {"type": "string", "minLength": 1},
+    "found": {"type": "boolean"},
+    "bbox": {"oneOf": [{"type": "null"}, {"type": "array", "minItems": 4, "maxItems": 4, "items": {"type": "number", "minimum": 0, "maximum": 1000}}]},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+  }
+}

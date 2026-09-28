@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ExamOCRBench Public Task4 Input",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "sample_id", "image", "content_type", "output_format"],
+  "properties": {
+    "schema_version": {"const": "examocrbench_task4_public_input_v1"},
+    "sample_id": {"type": "string", "minLength": 1},
+    "image": {"type": "string", "minLength": 1},
+    "content_type": {"enum": ["plain_text", "formula", "mixed"]},
+    "output_format": {"const": "plain_text"}
+  }
+}

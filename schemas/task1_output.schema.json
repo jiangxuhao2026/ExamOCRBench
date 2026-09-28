@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ExamOCRBench Public Task1 Output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "sample_id", "grading_units"],
+  "properties": {
+    "schema_version": {"const": "examocrbench_task1_public_output_v1"},
+    "sample_id": {"type": "string", "minLength": 1},
+    "grading_units": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["question_key", "unit_key", "evaluable", "grading_status", "awarded_score", "reference_answer", "judgement_reason"],
+        "properties": {
+          "question_key": {"type": "string", "minLength": 1},
+          "unit_key": {"type": "string", "minLength": 1},
+          "observed_answer": {"type": "string"},
+          "evaluable": {"type": "boolean"},
+          "grading_status": {"enum": ["graded", "not_evaluable"]},
+          "awarded_score": {"type": ["number", "null"], "minimum": 0},
+          "reference_answer": {"type": ["string", "null"]},
+          "judgement_reason": {"type": "string"}
+        }
+      }
+    }
+  }
+}

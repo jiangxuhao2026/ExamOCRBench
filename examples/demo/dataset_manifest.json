@@ -1,0 +1,30 @@
+{
+  "schema_version": "examocrbench_demo_dataset_manifest",
+  "dataset_name": "ExamOCRBench Demo",
+  "ground_truth_policy": {
+    "demo_gt_is_public": true,
+    "formal_benchmark_gt_is_hidden": true
+  },
+  "tasks": {
+    "task1": {
+      "input": "task1/input.jsonl",
+      "ground_truth": "task1/ground_truth.jsonl",
+      "image_dir": "task1/images"
+    },
+    "task2": {
+      "input": "task2/input.jsonl",
+      "ground_truth": "task2/ground_truth.jsonl",
+      "image_dir": "task2/images"
+    },
+    "task3": {
+      "input": "task3/queries.jsonl",
+      "ground_truth": "task3/ground_truth.jsonl",
+      "image_dir": "task3/images"
+    },
+    "task4": {
+      "input": "task4/input.jsonl",
+      "ground_truth": "task4/ground_truth.jsonl",
+      "image_dir": "task4/crops"
+    }
+  }
+}
