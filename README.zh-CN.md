@@ -4,6 +4,7 @@
   <a href="https://github.com/YOUR_ORG_OR_USERNAME/ExamOCRBench"><img src="https://img.shields.io/badge/GitHub-repo-24292f?logo=github&logoColor=white" alt="GitHub repository"></a>
   <a href="https://arxiv.org/"><img src="https://img.shields.io/badge/arXiv-coming%20soon-b31b1b" alt="arXiv"></a>
   <a href="https://huggingface.co/datasets/jiangxuhao/ExamOCRBench"><img src="https://img.shields.io/badge/Dataset-ExamOCRBench-2c8a62" alt="ExamOCRBench dataset"></a>
+  <a href="https://YOUR_ORG_OR_USERNAME.github.io/ExamOCRBench/"><img src="https://img.shields.io/badge/Blog-coming%20soon-4c8bf5" alt="Project blog"></a>
 </div>
 
 [ English](README.md)
