@@ -1,10 +1,11 @@
-# ExamOCRBench Open Source Runtime
-
 <div align="center">
-  <a href="https://github.com/YOUR_ORG_OR_USERNAME/ExamOCRBench"><img src="https://img.shields.io/badge/GitHub-repo-24292f?logo=github&logoColor=white" alt="GitHub repository"></a>
-  <a href="https://arxiv.org/"><img src="https://img.shields.io/badge/arXiv-coming%20soon-b31b1b" alt="arXiv"></a>
-  <a href="https://huggingface.co/datasets/jiangxuhao/ExamOCRBench"><img src="https://img.shields.io/badge/Dataset-ExamOCRBench-2c8a62" alt="ExamOCRBench dataset"></a>
-  <a href="https://YOUR_ORG_OR_USERNAME.github.io/ExamOCRBench/"><img src="https://img.shields.io/badge/Blog-coming%20soon-4c8bf5" alt="Project blog"></a>
+  <a href="https://appen.com"><img src="appen-logo.svg" alt="Appen" width="150"></a>
+  <br><br>
+  <a href="https://arxiv.org/"><img src="https://img.shields.io/badge/Paper-coming%20soon-7b61ff" alt="论文"></a>
+  <a href="https://huggingface.co/datasets/jiangxuhao/ExamOCRBench"><img src="https://img.shields.io/badge/Datasets-Hugging%20Face-f2c94c?logo=huggingface&logoColor=black" alt="数据集"></a>
+  <a href="https://github.com/jiangxuhao2026/ExamOCRBench"><img src="https://img.shields.io/badge/GitHub-ExamOCRBench-24292f?logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://mp.weixin.qq.com/"><img src="https://img.shields.io/badge/WeChat-coming%20soon-07c160?logo=wechat&logoColor=white" alt="微信公众号"></a>
+  <a href="https://jiangxuhao2026.github.io/ExamOCRBench/"><img src="https://img.shields.io/badge/Blog-coming%20soon-4c8bf5" alt="博客"></a>
 </div>
 
 [ English](README.md)
