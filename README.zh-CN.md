@@ -1,11 +1,11 @@
 <div align="center">
   <a href="https://appen.com"><img src="appen-logo.svg" alt="Appen" width="150"></a>
   <br><br>
-  <a href="https://arxiv.org/"><img src="https://img.shields.io/badge/Paper-coming%20soon-7b61ff" alt="论文"></a>
+  <a href="https://appen-website.oss-cn-shanghai.aliyuncs.com/prod/uploads/Exam_OCR_Bench_A_Multi_Task_Benchmark_for_Real_World_Exam_Document_Understanding_and_Automated_Grading_a212fe8cdc.pdf"><img src="https://img.shields.io/badge/Paper-ExamOCRBench-7b61ff" alt="论文"></a>
   <a href="https://huggingface.co/datasets/jiangxuhao/ExamOCRBench"><img src="https://img.shields.io/badge/Datasets-Hugging%20Face-f2c94c?logo=huggingface&logoColor=black" alt="数据集"></a>
   <a href="https://github.com/jiangxuhao2026/ExamOCRBench"><img src="https://img.shields.io/badge/GitHub-ExamOCRBench-24292f?logo=github&logoColor=white" alt="GitHub"></a>
   <a href="https://mp.weixin.qq.com/s/tTKRsXB8azZInE4kSiB76g"><img src="https://img.shields.io/badge/WeChat-ExamOCRBench-07c160?logo=wechat&logoColor=white" alt="微信公众号"></a>
-  <a href="https://jiangxuhao2026.github.io/ExamOCRBench/"><img src="https://img.shields.io/badge/Blog-coming%20soon-4c8bf5" alt="博客"></a>
+  <a href="https://www.linkedin.com/pulse/examocrbench-what-real-world-exam-grading-reveals-f196c/?trackingId=K4PBSPg0gNrEmO5uOqjhTw%3D%3D"><img src="https://img.shields.io/badge/Blog-ExamOCRBench-4c8bf5" alt="博客"></a>
 </div>
 
 [ English](README.md)
